@@ -38,8 +38,7 @@ const App = () => {
   return (
     <div className="App">
       Let's Start!
-      
-    </div>
+      </div>
   );
 }
 
