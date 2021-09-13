@@ -35,6 +35,16 @@ const App = () => {
      getProducts
      );
     console.log(data);
+
+    const getTotalItems = () => null;
+
+    const handleAddToCart = () => null;
+
+    const handleRemoveCart = () => null;
+
+    if (isLoading) return <LinearProgress />;
+    if (error) return <div>Something went wrong</div>
+
   return (
     <div className="App">
       Let's Start!
